@@ -80,16 +80,23 @@ export default defineAppConfig({
     },
     navbar: {
       colorModeSelector: true,
-      links: [
-        { name: "Directory", to: "/" },
-        { name: "Blog", to: "/blog" },
-        { name: "Advertise", to: "/advertise" },
-        {
-          name: "Analytics",
-          to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
-          target: "_blank",
-        },
-      ],
+      links: [{
+        name: "Directory",
+        to: "/",
+      }, {
+        name: "Blog",
+        to: "/blog",
+      }, {
+        name: "Advertise",
+        to: "/advertise",
+      }, {
+        name: "Analytics",
+        to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
+        target: "_blank",
+      }, {
+        name: "Test",
+        to: "/test",
+      }],
     },
     actionButton: {
       text: "Submit a starter",

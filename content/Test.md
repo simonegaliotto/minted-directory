@@ -1,3 +1,10 @@
+---
+layout: default
+ogImageStyle: Emoji
+ogImage:
+  emoji: 💶
+---
+
 # Test page
 
 ::feature-example
